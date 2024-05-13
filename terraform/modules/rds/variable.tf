@@ -38,5 +38,6 @@ variable "instance_class" {
 }
 
 variable "engine" {
+  default = "5.7.37"
   type = string
 }
